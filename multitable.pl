@@ -1,3 +1,4 @@
+# Outputs an n-column multiplication table
 use strict;
 use warnings;
 
@@ -22,6 +23,6 @@ while ($r <= $NUM_COLS) {
         printf("%4d", $c * $r);
         $c++;
     }
-    print "\n";
+    print("\n");
     $r++;
 }
